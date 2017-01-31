@@ -4,6 +4,7 @@ library(wesanderson)
 library(extrafont)
 library(ggplot2)
 font_import()
+#Season stats from 2011 to 2016
 seasStats11.16 <- read.csv("~/Documents/sportsblog/1617/seasStats11-16.csv")
 str(seasStats11.16)
 seasStats11.16$pct2p <- as.numeric(seasStats11.16$pct2p)
